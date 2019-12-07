@@ -1,3 +1,9 @@
+# idea
+.idea
+
+# config
+/blog-koa2/config/*
+
 # Logs
 logs
 *.log
@@ -102,3 +108,4 @@ dist
 
 # TernJS port file
 .tern-port
+/blog-koa2/config/
