@@ -12,8 +12,8 @@ const getList = async (author, keyword) => {
         sql += `and author=${author} `;
     }
     if (keyword) {
-        keyword = escape(keyword);
-        sql += `and title like %${keyword}% `;
+        keyword = escape('%' + keyword + '%');
+        sql += `and title like ${keyword} `;
     }
     sql += `order by createtime desc;`;
 

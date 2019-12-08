@@ -6,10 +6,13 @@ koa2 blog-koa2 #
 npm install koa-generic-session #
 npm install koa-redis #
 npm install redis # 
-npm install mysql #
-npm install xss #
+npm install mysql # 
+npm install xss # 防xss攻击
+npm install koa-margan # 记录日志
 ```
+
 ---
+
 > koa异步处理基础 async-await 
 ```
 // async await 要点
