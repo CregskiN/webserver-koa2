@@ -46,6 +46,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+pm2-test/node_modules/
 
 # TypeScript v1 declaration files
 typings/
@@ -109,3 +110,4 @@ dist
 # TernJS port file
 .tern-port
 /blog-koa2/config/
+/pm2-test/node_modules/

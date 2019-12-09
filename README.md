@@ -9,8 +9,23 @@ npm install redis #
 npm install mysql # 
 npm install xss # 防xss攻击
 npm install koa-margan # 记录日志
+
+npm install pm2 -g # 
 ```
 
+---
+> pm2命令
+```
+pm2 start ... #
+pm2 list # 显示表
+pm2 restart <AppName>/<id> # 重启<id>=0的项目
+pm2 stop <AppName>/<id> # 停止
+pm2 delete <AppName>/<id> # 删除
+pm2 info <AppName>/<id> # 显示信息
+pm2 log <AppName>/<id> #  显示日志
+pm2 monit <AppName>/<id> # 打开监控窗口
+
+```
 ---
 
 > koa异步处理基础 async-await 
